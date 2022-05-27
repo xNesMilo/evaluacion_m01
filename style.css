@@ -1,0 +1,44 @@
+img {
+    padding-top: 60px;
+    display: block;
+    margin: auto;
+}
+.santiago {
+    min-width: auto;
+}
+#articulo1 {
+    padding-bottom: 20px;
+}
+#articulo2 {
+    display: block;
+}
+iframe {
+    display: block;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+footer {
+    text-align: center;
+    background-color: aqua;
+    display: block;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+main {
+    position: relative;
+}
+#container1 {
+    padding: 0ch;
+    padding-top: 200px;
+}
+#noti {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-grafico-moderno-noticias-mundiales-digitales_1412-570.jpg?w=2000);
+    background-size: cover;
+}
+#container2 {
+    padding: 0;
+}
