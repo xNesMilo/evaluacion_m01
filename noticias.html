@@ -6,15 +6,27 @@
     <title>Noticias</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp1920734.jpg');
+            background-size: cover;
+        }
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            font-family: fantasy;
+        }
+    </style>
 </head>
-<body id="noti">
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark">
         <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Santiago</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
@@ -23,25 +35,30 @@
             <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
             </form>
-        </div>
+            </div>
         </div>
     </nav>
+    <div class="text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMAvX8H0qToYv99qooaHvq0uvA3P7vogJzkw&usqp=CAU" class="rounded">
+    </div>
     <main>
-        <div id="container1" class="container col-lg-12 col-md-9 offset-md-4">
+        <div id="container1" class="container col-lg-12 col-md-12">
         <article id="articulo1">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" style="background: rgb(34,102,195);
+                    background: linear-gradient(0deg, rgba(34,102,195,1) 0%, rgba(147,253,45,1) 100%);">
                         <h5 class="card-title">Noticias</h5>
                         <p class="card-text">Noticias de la comuna</p>
                         <a target="_blank" href="https://www.munistgo.cl/category/noticias/" class="btn btn-primary">Ir al enlace</a>
                     </div>
                 </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" style="background: rgb(34,195,188);
+                    background: linear-gradient(0deg, rgba(34,195,188,1) 0%, rgba(253,86,45,1) 100%);">
                         <h5 class="card-title">Eventos Santiago</h5>
                         <p class="card-text">Musica, cultura, etc</p>
                         <a href="https://finde.latercera.com/cultura-pop/panoramas-gratis-en-santiago-2022-mayo-2/" class="btn btn-primary">Ir al enlace</a>
@@ -52,19 +69,20 @@
         </article>
         <article id="articulo2">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col">
                 <div class="card">
-                    <div class="card-body">
-                        
+                    <div class="card-body" style="background: rgb(34,193,195);
+                    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);">                      
                         <h5 class="card-title">Museo historia Natural</h5>
                         <p class="card-text">Noticias sobre el museo de historia natural</p>
                         <a target="_blank" href="https://www.mnhn.gob.cl/noticias" class="btn btn-primary">Ir al enlace</a>
                     </div>
                 </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" style="background: rgb(139,34,195);
+                    background: linear-gradient(0deg, rgba(139,34,195,1) 0%, rgba(70,253,45,1) 100%);;">
                         <h5 class="card-title">Noticias generales</h5>
                         <p class="card-text">Noticias sobre todo el pais</p>
                         <a href="https://www.latercera.com/" class="btn btn-primary">Ir al enlace</a>
@@ -74,9 +92,10 @@
             </div>
         </div>    
         </article>
+    </main> 
         <footer>
+            <h3>Noticias</h3>
             <p> 2022 Camilo Miranda</p>
         </footer>
-    </main>   
 </body>
 </html>

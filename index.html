@@ -6,9 +6,15 @@
     <title>Santiago</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('https://www.teahub.io/photos/full/69-692616_1242x2208-plus-yellow-wallpaper-iphone-background-light-yellow.jpg');
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark">
             <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Santiago</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,20 +32,54 @@
                 </div>
             </div>
         </nav>
-        <main>
-        <header>
-            <img class="santiago d-block" src="https://datos.gob.cl/uploads/group/2016-02-23-122218.385573logo1.jpg" alt="Santiago">
-        </header>
-
-        <article>
+    <main>
+        <section>
             <div class="row">
-                <div class="col"></div>
+                <div class="col-12 col-lg-12 col-md-12 offset-md-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://araucanianoticias.cl/wp-content/uploads/2020/01/araucanianoticias.cl-Lugares-Populares-Santiago-1280x720.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://trioviajero.com/wp-content/uploads/2020/01/Chile-Santiago_Cerro-San-Cristobal_teleferico.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://i.ytimg.com/vi/Ml-ry6kbP60/maxresdefault.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
             </div>
+        </section>
+        <article id="historia">
+                <div class="row">
+                    <div class="col-12 col-md-6 offset-md-3 offset-md-0">
+                        <br>
+                        <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-style: italic; text-decoration: underline;">Reseña de Santiago</h2>
+                        <p style="background:#c0d85650; color:rgb(15, 15, 15); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding:15px; border:3px solid #9c7d6b; margin-top:40px; margin-bottom:40px; text-align:justify; font-size:30px;">La historia de Santiago se remonta a los primeros habitantes de la cuenca del río Mapocho, aproximadamente en el X milenio a. C. Sin embargo, recién en el siglo XV con la conquista de la región por el Imperio incaico existirían las primeras comunidades en la zona.
+                            <br>
+                            La ciudad fue fundada hace 481 años como Santiago del Nuevo Extremo (en honor al apóstol Santiago, convirtiéndose así en la capital de la Gobernación de Nueva Extremadura) por el conquistador extremeño Pedro de Valdivia, el 12 de febrero de 1541.
+                            <br>
+                            Desde esa fecha, la primera ciudad fundada en Chile sería, casi ininterrumpidamente hasta el día de hoy, la capital y principal urbe de la nación.
+                            <br>
+                            En la actualidad, Santiago es una gran conurbación que, en 2002, se extendía sobre una superficie de 641,4 km² y tenía una población de 5.428.590 habitantes, cifra que en 2006 alcanzaría, según estimaciones del Instituto Nacional de Estadísticas (INE), a los 6 269 629 habitantes, lo que equivale a cerca del 40 % de la población total del país.</p>
+                    </div>
+                </div> 
         </article>
+    </main>
         <footer>
+            <h3>Municipalidad de Santiago</h3>
             <p> 2022 Camilo Miranda</p>
         </footer>
-    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
